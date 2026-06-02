@@ -1,0 +1,31 @@
+﻿[*.cs]
+
+# SYSLIB1096: Convert to 'GeneratedComInterface'
+dotnet_diagnostic.SYSLIB1096.severity = none
+
+# IDE0130: Namespace does not match folder structure
+dotnet_style_namespace_match_folder = false
+
+# IDE0306: Simplify collection initialization
+dotnet_style_prefer_collection_expression = never
+
+# long=>Int64
+dotnet_style_predefined_type_for_member_access = false
+dotnet_style_predefined_type_for_locals_parameters_members = false
+dotnet_diagnostic.IDE0049.severity = error
+
+# this. preferences
+dotnet_style_qualification_for_field = true:suggestion
+dotnet_style_qualification_for_event = true:suggestion
+dotnet_style_qualification_for_property = true:suggestion
+dotnet_style_qualification_for_method = true:suggestion
+
+# usings
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = true
+
+# namespace declaration
+csharp_style_namespace_declarations = file_scoped:suggestion
+
+# case with {}
+csharp_indent_case_contents_when_block = false
