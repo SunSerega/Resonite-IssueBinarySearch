@@ -4,4 +4,11 @@
 		<OutputType>Exe</OutputType>
 	</PropertyGroup>
 	
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+		<PackageReference Include="Papaltine.ResoniteLink.RPath" Version="0.5.0" />
+		<PackageReference Include="Spectre.Console" Version="0.55.2" />
+		<PackageReference Include="Watson" Version="7.0.14" />
+	</ItemGroup>
+	
 </Project>
