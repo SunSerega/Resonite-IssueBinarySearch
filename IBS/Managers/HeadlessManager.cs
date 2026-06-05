@@ -116,9 +116,6 @@ public static class HeadlessManager
 
     private static Process Run()
     {
-        var headless_config = HeadlessManager.headless_config
-            ?? throw new InvalidOperationException($"{nameof(HeadlessManager)} is not initialized");
-
         AnsiConsole.MarkupLineInterpolated($"[green]Headless config:[/]");
         var headless_config_str = headless_config.WriteToString();
         AnsiConsole.MarkupLineInterpolated($"[aqua]{headless_config_str}[/]");
